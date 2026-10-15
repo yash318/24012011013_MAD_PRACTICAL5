@@ -10,7 +10,7 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.a24012011180_mad_practical_5.ui.theme._24012011180_MAD_PRACTICAL5Theme
+import com.example.a24012011013_mad_practical5.ui.theme._24012011013_MAD_PRACTICAL5Theme
 
 class MainActivity : ComponentActivity() {
 
@@ -20,7 +20,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
 
         setContent {
-            _24012011180_MAD_PRACTICAL5Theme {
+            _24012011013_MAD_PRACTICAL5Theme() {
                 Scaffold(
                     modifier = Modifier.fillMaxSize()
                 ) { innerPadding ->

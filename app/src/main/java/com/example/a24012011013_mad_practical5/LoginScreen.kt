@@ -31,7 +31,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
-import com.example.a24012011180_mad_practical_5.ui.theme.Pink40
+import com.example.a24012011013_mad_practical5.ui.theme.Pink40
 
 @Composable
 fun LoginScreen(context:Context, navController: NavController){
